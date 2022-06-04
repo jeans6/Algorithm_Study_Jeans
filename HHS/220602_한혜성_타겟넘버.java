@@ -18,7 +18,9 @@ class Solution {
         
         return answer;
     }
+    // +와 - 두 경우 다 넣어서 dfs 돌리기
     public static void dfs(int num, int sum){
+        // numbers를 다 돌았을 때 계산값이 타겟넘버와 같을 경우 answer 올리기
         if(num == nums.length && sum == tarNum){
             answer++;
         }else if(num < nums.length){
