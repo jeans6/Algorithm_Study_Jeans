@@ -22,18 +22,25 @@ function solution(s)
     }
     
 
-//효율성 통과 x    
-//     for(let j=0; j<=s.length; j++){
-//         for(let i=j; i<=s.length; i++){
-                 
-//             const original = arr.slice(j,i);
-//             const rev = arr.slice(j,i).reverse();
+// slice 안 쓴 코드
 
-//             if(JSON.stringify(original) !== JSON.stringify(rev)) continue;
-
-//             max = Math.max(max, original.length);
-//         }
-//     }
+    const isPalindrome2 = (str, start, end)=> {
+        let length = end - start;
+        for (let i = 0; i < length / 2; i++) {
+            if (str[i + start] != str[end - 1 - i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+    for (let len = s.length(); len > 1; len--) {
+        for (let j = 0; j + len <= s.length(); j++) {
+            if (isPalindrome2(s, j, j + len)) {
+                return len;
+            }
+        }
+    }
+    return 1;
 
 
     return 1;
