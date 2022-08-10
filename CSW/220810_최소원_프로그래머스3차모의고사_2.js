@@ -12,6 +12,9 @@ function solution(ingredient) {
     // }
 
     // 시간초과 (52.9점)
+    // let arr = ingredient.join('');
+    // let idx = arr.indexOf('1231');
+    // if(idx === -1) return 0;
     // let stack = [];
     // while(1){
     //     if(stack.length>3){
