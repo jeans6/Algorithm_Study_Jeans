@@ -14,7 +14,7 @@ class Solution {
             max = 0;
             for(int j = 0; j < orders.length; j++) {
                 if(course[i] <= orders[j].length()) 
-                    perm(0, 0, course[i], orders[j], "", new boolean[orders[j].length()]);
+                    combi(0, 0, course[i], orders[j], "", new boolean[orders[j].length()]);
             }
             // 손님이 2번 이상 주문하고, 가장 인기있는 경우에만 결과리스트에 저장
             if(max > 1) {
@@ -29,7 +29,7 @@ class Solution {
         return result.toArray(new String[result.size()]);
     }
     
-    void perm(int start, int cnt, int N, String order, String set, boolean[] visited) {
+    void combi(int start, int cnt, int N, String order, String set, boolean[] visited) {
         if(cnt == N) {
             if(set.length() > 1) {
                 set = Stream.of(set.split(""))
@@ -43,7 +43,7 @@ class Solution {
         for(int i = start; i < order.length(); i++) {
             if(visited[i]) continue;
             visited[i] = true;
-            perm(i, cnt+1, N, order, set+order.charAt(i), visited);
+            combi(i, cnt+1, N, order, set+order.charAt(i), visited);
             visited[i] = false;
         }
     }
