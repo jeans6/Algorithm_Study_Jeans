@@ -22,7 +22,7 @@
 |                             8/22                             |                             8/23                             |                             8/24                             |                             8/25                             |                             8/26                             |
 | [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | [숫자게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987) | [2개이하로다른비트](https://school.programmers.co.kr/learn/courses/30/lessons/77885) | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) | [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) |
 |                             8/29                             |                             8/30                             |                             8/31                             |                             9/1                             |                             9/2                             |
-| []() | []() | []() | []() | []() |
+| [올바른괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) | [이진변환반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [파일명정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) | [2xn타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | [압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684) |
 
 
 #### 2022년 7월
