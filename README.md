@@ -1,6 +1,7 @@
 # 🔥SSAFY 6기 청바지팀 알고리즘 스터디🔥
 
 ### 🥊 [프로그래머스 코딩테스트 고득점 kit 완주를 목표로!!](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
+### 🥊 [백준 ★직접 코테 광탈하면서 모은 문제들☆ 완주를 목표로!!](https://www.acmicpc.net/workbook/view/4357)
 
 #### ✔ 스터디 방법!
 
@@ -9,6 +10,19 @@
 !! 커밋메시지는 본인 이모지 + 본인 이름 + "알고리즘 문제 풀이"
 3. 푼 문제는 자신의 branch를 생성해 push한 뒤 master 브랜치로 PR 요청(다음 날 점심 전까지 필수!!)
 4. PR이 올라오면 다른 팀원들은 코드리뷰를 하고 피드백 후 approve
+
+
+#### 2022년 9월
+|                                                              |                                                              |                                                              |                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                             9/5                              |                             9/6                              |                             9/7                              |                             9/8                              |                             9/9                              |
+| [Olympiad Pizza](https://www.acmicpc.net/problem/15235)<br/>[봄버맨](https://www.acmicpc.net/problem/16918) | [아기상어2](https://www.acmicpc.net/problem/17086)<br/>[스위치켜고끄기](https://www.acmicpc.net/problem/1244) | [카드2](https://www.acmicpc.net/problem/2164)<br/>[컴백홈](https://www.acmicpc.net/problem/1189) | [배열복원하기](https://www.acmicpc.net/problem/16967)<br/>[근손실](https://www.acmicpc.net/problem/18429) | [마라톤1](https://www.acmicpc.net/problem/10655)<br/>[후위표기식2](https://www.acmicpc.net/problem/1935) |
+|                             9/12                             |                             9/13                             |                             9/14                             |                             9/15                             |                             9/16                             |
+| [트럭](https://www.acmicpc.net/problem/13335) | [어드벤처 게임](https://www.acmicpc.net/problem/2310) | [전구와 스위치](https://www.acmicpc.net/problem/2138) | [무기 공학](https://www.acmicpc.net/problem/18430) | [MooTube](https://www.acmicpc.net/problem/15591) |
+|                             9/19                             |                             9/20                             |                             9/21                             |                             9/22                             |                             9/23                             |
+| [로봇 시뮬레이션](https://www.acmicpc.net/problem/2174) | [감시 피하기](https://www.acmicpc.net/problem/18428) | [Circular Barn (Silver)](https://www.acmicpc.net/problem/11996) | [거짓말](https://www.acmicpc.net/problem/1043) | [소가 길을 건너간 이유 6](https://www.acmicpc.net/problem/14466) |
+|                             9/26                             |                             9/27                             |                             9/28                             |                             9/29                             |                             9/30                             |
+| [여행가자](https://www.acmicpc.net/problem/1976) | [마라톤2](https://www.acmicpc.net/problem/10653) | [함께 블록 쌓기](https://www.acmicpc.net/problem/18427) | [여왕벌](https://www.acmicpc.net/problem/10836) | [저울](https://www.acmicpc.net/problem/10159) |
 
 
 
