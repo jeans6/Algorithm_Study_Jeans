@@ -27,7 +27,7 @@ public class Main_BOJ_15591_MooTubeSilber{
 			usado[p].add(new USADO(q,r));
 			usado[q].add(new USADO(p,r));
 		}
-		//질문 들어올때마다 v부터 쭉 훑으면서 
+		//질문 들어올때마다 실행 
 		for(int i = 0; i < Q; i++) {
 			str = br.readLine().split(" ");
 			int K = Integer.parseInt(str[0]);
