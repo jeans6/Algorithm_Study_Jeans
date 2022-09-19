@@ -42,18 +42,9 @@ public class Main_2174_로봇시뮬레이션 {
 			String result = "";
 			Robot temp = robots[robotNum-1];
 			
-			for(int i = 0; i < row;i++) {
-				for(int j = 0; j < col; j++) {
-					System.out.print(map[i][j]+" ");
-				}
-				System.out.println();
-			}System.out.println();
-			
-
-
 			// 방향전환
-			if(d == 'L') temp.d = (temp.d+repeat)%4;
-			else if(d == 'R') temp.d = (temp.d+4-(repeat%4))%4;
+			if(d == 'R') temp.d = (temp.d+repeat)%4;
+			else if(d == 'L') temp.d = (temp.d+4-(repeat%4))%4;
 			else {
 				// 이동
 				for(int i = 0; i < repeat; i++) {
