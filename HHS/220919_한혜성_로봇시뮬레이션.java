@@ -101,6 +101,4 @@ class Robot{
 		this.r = r;
 		this.c = c;
 	}
-}public class 220919_한혜성_로봇시뮬레이션 {
-    
 }
