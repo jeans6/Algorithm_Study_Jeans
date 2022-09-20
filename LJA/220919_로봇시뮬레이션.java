@@ -1,12 +1,10 @@
-package com.junga.baekjoon.gold;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
-public class Main_2174_로봇시뮬레이션 {
+public class Main {
 	static int row, col, R, C;
 	static int[][] map;
 	// N,E,S,W 순
