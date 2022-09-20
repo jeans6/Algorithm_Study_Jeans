@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 public class Main {
 	static char[][] map;
-	static int N;
+	static int N, O;
 	static boolean isHide;
 	// 상하좌우
 	static int[] dr = {-1, 1, 0, 0};
@@ -19,6 +19,7 @@ public class Main {
 			map[i] = br.readLine().replaceAll(" ", "").toCharArray();
 		}
 		
+		O = 0;
 		// 폭탄이 설치될 수 있는 곳 체크(선생님과 학생 마주 보는 곳)
 		for(int i = 0; i < N; i++) {
 			for(int j = 0; j < N; j++) {
@@ -29,7 +30,8 @@ public class Main {
 		// 폭탄 3개 설치하고 찾을 수 있는지 확인
 		isHide = false;
 		dfs(0, 0, 0, new boolean[N][N]);
-		
+
+		if(!seek()) isHide = true;
 		System.out.println(isHide?"YES":"NO");
 	}
 	
@@ -44,6 +46,7 @@ public class Main {
 				nr += dr[d];
 				nc += dc[d];
 				if(nr<0 || nc<0 || nr>=N || nc>=N) break;
+				if(map[nr][nc] == 'T') break;
 				if(map[nr][nc] == 'S') {
 					isStudent = true;
 					break;
@@ -57,8 +60,10 @@ public class Main {
 					nr += dr[d];
 					nc += dc[d];
 					if(nr<0 || nc<0 || nr>=N || nc>=N) break;
+					if(map[nr][nc] == 'T') break;
 					if(map[nr][nc] == 'S') break;
 					map[nr][nc] = '1';
+					O++;
 				}
 			}
 		}
@@ -75,7 +80,7 @@ public class Main {
 							nr += dr[d];
 							nc += dc[d];
 							if(nr<0 || nc<0 || nr>=N || nc>=N) break;
-							if(map[nr][nc] == 'O') break;
+							if(map[nr][nc] == 'O' || map[nr][nc] == 'T') break;
 							if(map[nr][nc] == 'S') return true;
 						}
 					}
@@ -86,7 +91,7 @@ public class Main {
 	}
 	
 	public static void dfs(int r, int c, int cnt, boolean[][] visited) {
-		if(cnt == 3) {
+		if(cnt == 3 || cnt == O) {
 			if(!seek()) isHide = true;
 			return;
 		}
