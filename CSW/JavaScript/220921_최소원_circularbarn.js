@@ -4,6 +4,7 @@ var input = fs.readFileSync(`C://Users/SONG/Desktop/pjt/Algorithm_Study_Jeans/CS
 let N = parseInt(input[0]);
 let energy = 0;
 const barn = [];
+const distance = Array.from({length:N}, ()=>0);
 for(let i=1; i<=N; i++){
     barn.push(parseInt(input[i]));
 }
@@ -15,8 +16,7 @@ function isCow(blankP){
         if(barn[i]){
             barn[i] -=1;
             barn[blankP] += 1;
-            energy += Math.pow(blankP-i,2);
-            console.log(barn);
+            distance[blankP] = blankP-i + distance[i];
             return;
         }
     }
@@ -24,8 +24,7 @@ function isCow(blankP){
         if(barn[i]){
             barn[i] -=1;
             barn[blankP] += 1;
-            energy += Math.pow(N-i+blankP,2);
-            console.log(barn);
+            distance[blankP] = N-i+blankP + distance[i];
             return;
         }
     }
@@ -42,4 +41,9 @@ while(barn.some(e=>e>=2)){
         }
     }
 }
+
+for(let i=0; i<distance.length; i++){
+    energy += distance[i] * distance[i];
+}
+
 console.log(energy);
