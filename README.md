@@ -1,7 +1,11 @@
 # 🔥SSAFY 6기 청바지팀 알고리즘 스터디🔥
 
 ### 🥊 [프로그래머스 코딩테스트 고득점 kit 완주를 목표로!!](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
-### 🥊 [백준 ★직접 코테 광탈하면서 모은 문제들☆ 완주를 목표로!!](https://www.acmicpc.net/workbook/view/4357)
+### 🥊 [boj 문제]
+| 월 | 화 | 수 | 목 | 금 | 주말 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [bfs/dfs](https://www.acmicpc.net/workbook/view/1833) | [DP](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&submit=fa%2Cus&tier=9%2C10%2C11%2C12%2C13&algo=25&algo_if=and) | [그리디](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=9%2C10%2C11%2C12%2C13&algo=33&algo_if=and) | [그래프](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=8%2C9%2C10%2C11%2C12%2C13&algo=7&algo_if=and) | [자료구조](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=9%2C10%2C11%2C12%2C13&algo=175&algo_if=and)/[문자열](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=9%2C10%2C11%2C12%2C13&algo=158&algo_if=and) | [프로그래머스](https://school.programmers.co.kr/learn/challenges?page=1&statuses=unsolved&levels=2%2C3&languages=java%2Cjavascript) |
+
 
 #### ✔ 스터디 방법!
 
@@ -11,6 +15,19 @@
 3. 푼 문제는 자신의 branch를 생성해 push한 뒤 master 브랜치로 PR 요청(다음 날 점심 전까지 필수!!)
 4. PR이 올라오면 다른 팀원들은 코드리뷰를 하고 피드백 후 approve
 
+
+
+#### 2022년 9월
+|  |  |  |  |  |  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|  |  | | 10/6 | 10/7 | 보너스 |
+|  |  |  | [회의실 배정](https://www.acmicpc.net/problem/1931) | [숨바꼭질](https://www.acmicpc.net/problem/1697) | [N진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) |
+| 10/10 | 10/11 | 10/12 | 10/13 | 10/14 | 보너스 |
+| [영역구하기](https://www.acmicpc.net/problem/2583) | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [유기농 배추](https://www.acmicpc.net/problem/1012) | [스택 수열](https://www.acmicpc.net/problem/1874) | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
+| 10/17 | 10/18 | 10/19 | 10/20 | 10/21 | 보너스 |
+| [벽 부수고 이동하기](https://www.acmicpc.net/workbook/view/1833) | [연속합](https://www.acmicpc.net/problem/1912) | [신입 사원](https://www.acmicpc.net/problem/1946) | [바이러스](https://www.acmicpc.net/problem/2606) | [LCS](https://www.acmicpc.net/problem/9251) | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
+| 10/24 | 10/25 | 10/26 | 10/27 | 10/28 | 보너스 |
+| [DSLR](https://www.acmicpc.net/problem/9019) | [포도주 시식](https://www.acmicpc.net/problem/2156) | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [AC](https://www.acmicpc.net/problem/5430) | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) |
 
 #### 2022년 9월
 |                                                              |                                                              |                                                              |                                                              |                                                              |
