@@ -1,5 +1,5 @@
 var fs = require('fs');
-var input = fs.readFileSync(`C://Users/SONG/Desktop/pjt/Algorithm_Study_Jeans/CSW/JavaScript/example.txt`).toString().trim().split('\n');
+var input = fs.readFileSync(`/dev/stdin`).toString().trim().split('\n');
 
 let N = parseInt(input[0]);
 let M = parseInt(input[1]);
