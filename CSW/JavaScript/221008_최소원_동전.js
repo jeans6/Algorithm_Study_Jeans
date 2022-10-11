@@ -1,5 +1,4 @@
 var fs = require('fs');
-const { emitKeypressEvents } = require('readline');
 var input = fs.readFileSync(`C://Users/SONG/Desktop/pjt/Algorithm_Study_Jeans/CSW/JavaScript/example.txt`).toString().trim().split('\n');
 
 let T = parseInt(input[0]);
