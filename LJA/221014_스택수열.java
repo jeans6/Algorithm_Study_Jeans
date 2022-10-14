@@ -14,7 +14,6 @@ public class Main {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
 		Stack<Integer> stack = new Stack<>();
-		char[] chars = new char[N];
 		List<Character> list = new ArrayList<Character>();
 		int idx = 0;
 		int num = 1;
