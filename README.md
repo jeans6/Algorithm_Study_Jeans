@@ -25,7 +25,7 @@
 | 10/10 | 10/11 | 10/12 | 10/13 | 10/14 | 보너스 |
 | [영역구하기](https://www.acmicpc.net/problem/2583) | [쉬운 계단 수](https://www.acmicpc.net/problem/10844) | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | [유기농 배추](https://www.acmicpc.net/problem/1012) | [스택 수열](https://www.acmicpc.net/problem/1874) | [최솟값 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12941) |
 | 10/17 | 10/18 | 10/19 | 10/20 | 10/21 | 보너스 |
-| [벽 부수고 이동하기](https://www.acmicpc.net/workbook/view/1833) | [연속합](https://www.acmicpc.net/problem/1912) | [신입 사원](https://www.acmicpc.net/problem/1946) | [바이러스](https://www.acmicpc.net/problem/2606) | [LCS](https://www.acmicpc.net/problem/9251) | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
+| [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [연속합](https://www.acmicpc.net/problem/1912) | [신입 사원](https://www.acmicpc.net/problem/1946) | [바이러스](https://www.acmicpc.net/problem/2606) | [LCS](https://www.acmicpc.net/problem/9251) | [숫자의 표현](https://school.programmers.co.kr/learn/courses/30/lessons/12924) |
 | 10/24 | 10/25 | 10/26 | 10/27 | 10/28 | 보너스 |
 | [DSLR](https://www.acmicpc.net/problem/9019) | [포도주 시식](https://www.acmicpc.net/problem/2156) | [카드 정렬하기](https://www.acmicpc.net/problem/1715) | [연결 요소의 개수](https://www.acmicpc.net/problem/11724) | [AC](https://www.acmicpc.net/problem/5430) | [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) |
 
