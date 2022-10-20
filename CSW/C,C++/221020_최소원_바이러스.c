@@ -3,18 +3,18 @@
 #include <stdlib.h>
 
 int root[101];
-int N, connect, cnt;
-
-void unionParent(int a, int b) {
-	int parentA = getParent(a);
-	int parentB = getParent(b);
-	if (parentA > parentB) root[a] = parentB;
-	else root[b] = parentA;
-}
+int N, connect, cnt=0;
 
 int getParent(int a) {
 	if (root[a] == a) return a;
 	return root[a] = getParent(root[a]);
+}
+
+void unionParent(int a, int b) {
+	int parentA = getParent(a);
+	int parentB = getParent(b);
+	if (parentA > parentB) root[parentA] = parentB;
+	else root[parentB] = parentA;
 }
 
 
@@ -32,13 +32,13 @@ int main() {
 		unionParent(a, b);
 	}
 
-	for (int i = 1; i <= N; i++) {
-		if (getParent(i) == 1) {
+	for (int i = 2; i <= N; i++) {
+		if (getParent(i) == getParent(1)) {
 			cnt++;
 		}
 	}
 
-	printf("%d", cnt);
+	printf("%d\n", cnt);
 
 	return 0;
 }
