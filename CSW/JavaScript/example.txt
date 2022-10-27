@@ -1,2 +1,4 @@
-ACAYKP
-CAPCAK
+3
+10
+20
+40
