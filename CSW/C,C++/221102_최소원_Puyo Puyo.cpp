@@ -92,7 +92,7 @@ int main() {
         	answer++;	
 	}
 	
-    cout << answer;
+    	cout << answer;
 
 
 	return 0;
