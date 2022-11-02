@@ -89,7 +89,7 @@ int main() {
 
 	while (pop_puyo()) {
 		drop();
-        answer++;	
+        	answer++;	
 	}
 	
     cout << answer;
