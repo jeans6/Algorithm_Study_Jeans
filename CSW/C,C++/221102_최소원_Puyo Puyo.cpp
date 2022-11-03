@@ -89,10 +89,10 @@ int main() {
 
 	while (pop_puyo()) {
 		drop();
-        answer++;	
+        	answer++;	
 	}
 	
-    cout << answer;
+    	cout << answer;
 
 
 	return 0;
