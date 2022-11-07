@@ -1,5 +1,5 @@
 var fs = require('fs');
-var [N, str] = fs.readFileSync(`C://Users/SONG/Desktop/pjt/Algorithm_Study_Jeans/CSW/JavaScript/example.txt`).toString().trim().split('\n');
+var [N, str] = fs.readFileSync(`/dev/stdin`).toString().trim().split('\n');
 
 
 const arr = str.split(' ').map(e=>Number(e));
